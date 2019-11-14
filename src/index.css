@@ -1,5 +1,5 @@
-body {
-  margin: 0;
+/* body {
+  margin: 1rem;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
@@ -10,4 +10,63 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+ */
+
+ body {
+  /* background-image: url(http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/squares.png)  */
+  background-color: rgb(170, 170, 170);
+}
+  
+.box {
+  display: inline-block;       
+  border: 1px solid black;
+  width: 15px;
+  height: 15px;
+  margin-left: -1px;
+  margin-bottom: -1px;
+  }
+
+.off {
+  background-color: lightgray;
+}
+
+.on {
+  background-color: #669C5E;
+}
+  
+.box:hover { 
+  background: #E8A90C ; 
+}
+
+.center {
+  margin: auto;
+  display: table;
+  margin-top: 10px;
+}
+
+.grid {
+  width: 150px;
+  line-height: 0;
+  margin: auto;
+  box-shadow: 0px 0px 20px white;
+  margin-top: 20px;
+}
+  
+h1, h2, h3, h4 {
+  color: rgb(44, 62, 80);
+  margin: auto;
+  text-align: center;
+  width: 50%;
+  margin-top: 10px;
+}
+
+h4 {
+  margin-top: 0px;
+}
+
+/* custom css replacing Bootstrap  */
+.btn-primary {
+  background-color: #669C5E !important;
+  border-color: #669C5E !important;
 }
